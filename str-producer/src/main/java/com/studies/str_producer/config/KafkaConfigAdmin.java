@@ -11,6 +11,8 @@ import org.springframework.kafka.core.KafkaAdmin;
 
 import lombok.RequiredArgsConstructor;
 
+/* configs para acesso ao servidor e criação de tópico - Admin */
+
 @RequiredArgsConstructor
 @Configuration
 public class KafkaConfigAdmin {
